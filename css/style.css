@@ -1,0 +1,9 @@
+.jumbotron{
+    background-color: #e9ecefe3;
+    display: flex;
+}
+
+.card-img-top{
+    width: 60%;
+    height: auto;
+}
