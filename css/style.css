@@ -3,6 +3,20 @@
     display: flex;
 }
 
+.customNav{
+    /* position: fixed; */
+    width: 100%;
+    background-color: sandybrown;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-first{
+    border-radius: 50%;
+}
+
 .img-top{
     width: 80%;
     height: auto;
@@ -17,6 +31,10 @@ body{
 
 .skills{
     background-color: rgb(149, 209, 210);
+}
+
+.contact{
+    background-color: rgb(125, 199, 199);
 }
 
 .card-img-top{
@@ -39,7 +57,7 @@ h3{
 }
 
 button:hover{
-    box-shadow: 2px 2px 4px rgba(52, 149, 185, 0.5)
+    box-shadow: 2px 2px 4px rgba(218, 86, 25, 0.5)
 }
 
 a:hover, a:focus {
