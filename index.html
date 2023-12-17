@@ -7,6 +7,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <!-- Fontawesome link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Bootstrap CSS--->
     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" -->
     <!-- integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
@@ -63,7 +65,7 @@
 
             <h1 class="display-4">Welcome to my portfolio</h1>
             <p class="lead">Check out the following for info about me and my work</p>
-            <img src="../Bootstrap-Portfolio/css/images/02-portfolio-4.jpg" class="card-img-top" alt="...">
+            <img src="../Bootstrap-Portfolio/css/images/02-portfolio-4.jpg" class="img-top" alt="...">
         </div>
     </div>
 
@@ -71,39 +73,107 @@
     <!-- Section -work  -->
     <section class="container work">
         <h2 class="section heading"> Work </h2>
+        <h3 class="section subheading"> This portfolio will showcase some examples of work I have done enhancing my
+            front end web development skills.</h3>
         <div class="row">
-            <div class="cardContainer col-lg-10 col-md-12 col-sm-12">
+            <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
                 <div class="card" style="width: fit-content;">
                     <img src="../Bootstrap-Portfolio/css/images/02-hero-bg.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
+                        <h4>Refactoring a marketing agency website</h4>
+                        <p class="card-text">A marketing agency wanted a codebase that follows accessibility standards
+                            which is optimized for search engines. Code was updated to meet the following requirements.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+                <div class="card" style="width: fit-content;">
+                    <img src="../Bootstrap-Portfolio/css/images/02-portfolio-2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4>Second example</h4>
+                        <p class="card-text">Some details about my second project will be written here.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+                <div class="card" style="width: fit-content;">
+                    <img src="../Bootstrap-Portfolio/css/images/02-portfolio-3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4>Third example</h4>
+                        <p class="card-text">Some details about my third project will be written here.</p>
                     </div>
                 </div>
             </div>
         </div>
-
-
-
-
-
-
-
-
-
-
     </section>
 
     <!-- Section -skills -->
+    <section class="container skills">
+        <h2 class="section heading"> Skills </h2>
+        <h3 class="section subheading"> I expect to gain an understanding of HTML, CSS and Javascript and how these 3
+            languages are used to build engaging websites. I hope to add more skills below throughout the bootcamp</h3>
+        <div class="row">
+            <ul>HTML</ul>
+            <ul>CSS</ul>
+            <ul>Javascript</ul>
+        </div>
+    </section>
 
     <!-- Section -about/contact -->
 
-    <!-- Footer section -->
+    <section class="container about-me">
+        <h2 class="section heading"> About Me </h2>
+        <h3 class="section subheading"> James is an environmental consultant who works in Carbon Management. He is
+            looking to develop skills in front end web development which will be showcased in this portfolio.</h3>
+        <div class="row">
+            <h2>Subscribe to receive updates!</h2>
+                <form action="">
+                    <input type="text">
+                    <button>Subscribe</button>
+            </form>
+        </div>
 
+        <!-- Footer section -->
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="text-uppercase">LinkedIn</h4>
+                                    <a href="#">
+                                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                    </a>
+                            </div>
+                        </div>
+                    </div>
 
-    <!-- bootstrap script -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="text-uppercase">Email</h4>
+                                <a href="#">
+                                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                                </a> 
+                                <div> james@email.com
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-            // </body> 
-            // </html>
+                </div>
+                <div class="container">
+                    <p>Copyright James 2023</p>
+                </div>
+            </div>
+        </footer>
+
+        <!-- bootstrap script -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+
+                // </body> 
+                // </html>

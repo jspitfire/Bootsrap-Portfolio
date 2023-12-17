@@ -3,7 +3,47 @@
     display: flex;
 }
 
-.card-img-top{
-    width: 60%;
+.img-top{
+    width: 80%;
     height: auto;
 }
+
+body{
+    background-color: rgba(233, 231, 145, 0.872);
+}
+.work{
+    background-color: rgba(146, 223, 168, 0.67);
+}
+
+.skills{
+    background-color: rgb(149, 209, 210);
+}
+
+.card-img-top{
+    width: 100%;
+}
+
+.row{
+    margin: 20px;
+}
+
+h1{font-size: 30px;
+}
+
+h2{
+font-size: 25px;
+}
+
+h3{
+    font-size: 20px;
+}
+
+button:hover{
+    box-shadow: 2px 2px 4px rgba(52, 149, 185, 0.5)
+}
+
+a:hover, a:focus {
+    color: #202bfc;
+  }
+
+
